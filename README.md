@@ -9,8 +9,9 @@ This [utility]((https://ru.wikipedia.org/wiki/%D0%A3%D1%82%D0%B8%D0%BB%D0%B8%D1%
  1) Delimiter parameter can be passed in single quotes, double quotes or no quotes at all.  
  2) You can specify a parameter for strings and separator only once.  
  3) The --tail (-t) option can be entered as many times as you like.
+ 4) Options and file name can be arranged relative to each other as desired
 
-## **Program start format (options and file name can be arranged relative to each other as desired):**
+## **Program start format:**
 
 `PrintFile.exe [options] file_path`
 
