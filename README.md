@@ -31,13 +31,13 @@ This [utility]((https://ru.wikipedia.org/wiki/%D0%A3%D1%82%D0%B8%D0%BB%D0%B8%D1%
 12
 ```  
 Command line: `PrintFile.exe File.txt --lines=5 -d ';'`  
-Output:  
+### Output:  
 ```
 1;2;3;4;
 5;
 ```  
 Command line: `PrintFile.exe File.txt --lines=3 -d ';' --tail`  
-Output:  
+### Output:  
 ```
 10;11;
 12
