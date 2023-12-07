@@ -1,22 +1,4 @@
-#include <iostream>
-#include <fstream>
-#include <Windows.h>
-#include <filesystem>
-#include <cstring>
-
-const size_t kMaxBufferSize = 8192;
-const size_t kConsoleCodePage = 1251;
-const size_t kMinimalLengthOfLinesArgument = 8;
-const size_t kMinimalLengthOfDelimiterArgument = 12;
-
-//Output settings
-struct ConfigFile {
-    bool output_direction = true;
-    bool input_delimiter_check = false;
-    long long number_of_rows = -1;
-    char delimiter = '\n';
-    std::filesystem::path file_path;
-};
+#include "PrintFile.h"
 
 bool IsNumeric(const char* number) {
     while (*number != '\0') {
