@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.27)
 
 project(
-        PrintFile-Utility
+        PrintFile
         VERSION 1.0
-        DESCRIPTION "Printing file to console"
+        DESCRIPTION "Printing file to console utility"
         LANGUAGES CXX
 )
 
