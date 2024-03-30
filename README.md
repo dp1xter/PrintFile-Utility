@@ -11,6 +11,9 @@ This [utility]((https://ru.wikipedia.org/wiki/%D0%A3%D1%82%D0%B8%D0%BB%D0%B8%D1%
  3) The --tail (-t) option can be entered as many times as you like.
  4) Options and file name can be arranged relative to each other as desired.
 
+## **Requirements:**
+According to the requirements of lab-work, the use of the STL is prohibited.
+
 ## **Program start format:**
 
 `PrintFile.exe [options] file_path`
